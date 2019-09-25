@@ -46,7 +46,7 @@ namespace Wildlife.Animals
         public static void MainSearch(List<Animal> listA)
         {
             Console.WriteLine("----------------------");
-            Console.WriteLine("Welcome to the Epicodus Wildlife Park! Please select one of the below options:");
+            Console.WriteLine("**Welcome to the Epicodus Wildlife Park! Please select one of the below options:**");
             Console.WriteLine("1. View animals in park.");
             Console.WriteLine("2. Add an animal to the park.");
             Console.WriteLine("3. Release all animals from park.");
@@ -171,7 +171,7 @@ namespace Wildlife.Animals
             }
         }
 
-        public static void AddAnimal(List<Animal> listA)
+        public static void AddAnimal(List<Animal> listC)
         {
             Console.WriteLine("Enter your new Animal's Name:");
             string newAnimalName = Console.ReadLine();
@@ -183,17 +183,34 @@ namespace Wildlife.Animals
             string newAnimalType = Console.ReadLine();
 
             Animal newAnimal = new Animal(newAnimalName, newAnimalSpecies, newAnimalContinent, newAnimalType);
-            listA.Add(newAnimal);
+            listC.Add(newAnimal);
 
-            Animal.MainSearch(listA);
+            Animal.MainSearch(listC);
         }
 
-      public static void ReleaseAnimals(List<Animal> listA)
-      {
-        Console.WriteLine("All Animals have been released. They regard you as their hero now!");
-        Animal.MainSearch(listA);
-      }
+        public static void ReleaseAnimals(List<Animal> listB)
+        {
+            Console.WriteLine("**All Animals have been released. They regard you as their hero now!**");
+            Console.WriteLine(listB.Count);
+            
+            // listB.RemoveAll(animals);
 
+            // foreach (Animal furryfriend in listB)
+            // {
+            //   listB.Remove(furryfriend);
+            // }
+
+            // for (int i = listB.Count; i > 1; i--)
+            // {
+            // Console.WriteLine("AAHHHHHH");
+            // listB.RemoveAt(i);
+            // Console.WriteLine(listB.Count);
+            // }
+
+            listB.Clear();
+
+            Animal.MainSearch(listB);
+        }
 
     }
 }
