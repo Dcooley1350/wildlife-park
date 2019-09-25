@@ -42,10 +42,8 @@ namespace Wildlife.Animals
       return _type;
     }
 
-
-    public void AnimalSearch()
+    public void Reset()
     {
-      Console.WriteLine("----------------------");
       Console.WriteLine("1. View animals in park.");
       Console.WriteLine("2. Add an animal to the park.");
       Console.WriteLine("3. Release all animals from park.");
