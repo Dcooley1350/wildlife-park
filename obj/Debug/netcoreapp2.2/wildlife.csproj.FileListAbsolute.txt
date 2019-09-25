@@ -1,0 +1,11 @@
+/Users/Guest/wildlife/obj/Debug/netcoreapp2.2/wildlife.csprojAssemblyReference.cache
+/Users/Guest/wildlife/obj/Debug/netcoreapp2.2/wildlife.csproj.CoreCompileInputs.cache
+/Users/Guest/wildlife/obj/Debug/netcoreapp2.2/wildlife.AssemblyInfoInputs.cache
+/Users/Guest/wildlife/obj/Debug/netcoreapp2.2/wildlife.AssemblyInfo.cs
+/Users/Guest/wildlife/bin/Debug/netcoreapp2.2/wildlife.deps.json
+/Users/Guest/wildlife/bin/Debug/netcoreapp2.2/wildlife.runtimeconfig.json
+/Users/Guest/wildlife/bin/Debug/netcoreapp2.2/wildlife.runtimeconfig.dev.json
+/Users/Guest/wildlife/bin/Debug/netcoreapp2.2/wildlife.dll
+/Users/Guest/wildlife/bin/Debug/netcoreapp2.2/wildlife.pdb
+/Users/Guest/wildlife/obj/Debug/netcoreapp2.2/wildlife.dll
+/Users/Guest/wildlife/obj/Debug/netcoreapp2.2/wildlife.pdb
